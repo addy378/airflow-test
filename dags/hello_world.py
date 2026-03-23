@@ -5,5 +5,5 @@ from datetime import datetime
 
 with DAG("version_test", start_date=datetime(2024, 1, 1), schedule=None) as dag:
 
-    BashOperator(task_id="print_ver", bash_command="echo 'I am Version 3'")
+    BashOperator(task_id="print_ver", bash_command="echo 'I am Version 4'")
 
